@@ -1,0 +1,34 @@
+{"_parent":"AAAAAAFrXzSztc8Rhk0=","visibility":"public","name":"Interaction","_type":"UMLInteraction","_id":"AAAAAAFrXzSzts8SLJo="}
+{"messageSort":"createMessage","_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"a","_type":"UMLMessage","_id":"AAAAAAFrXzWfhM\/yuAw=","source":"AAAAAAFrXzTNCc8iGB4=","target":"AAAAAAFrXzWHHc\/TRC4="}
+{"messageSort":"synchCall","_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"b","_type":"UMLMessage","_id":"AAAAAAFrXzW7ptAJFIg=","source":"AAAAAAFrXzWHHc\/TRC4=","target":"AAAAAAFrXzT5GM9jqt8="}
+{"messageSort":"synchCall","_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"c","_type":"UMLMessage","_id":"AAAAAAFrXzXUJ9Aftrs=","source":"AAAAAAFrXzT5GM9jqt8=","target":"AAAAAAFrXzT5GM9jqt8="}
+{"messageSort":"deleteMessage","_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"e","_type":"UMLMessage","_id":"AAAAAAFrXzYpeNBOzb8=","source":"AAAAAAFrXzWHHc\/TRC4=","target":"AAAAAAFrXzTNCc8iGB4="}
+{"messageSort":"reply","_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"d","_type":"UMLMessage","_id":"AAAAAAFrXzYCQdA34mQ=","source":"AAAAAAFrXzT5GM9jqt8=","target":"AAAAAAFrXzWHHc\/TRC4="}
+{"_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"A","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrXzTNCc8iGB4=","represent":"AAAAAAFrXzTNCM8h6yg="}
+{"_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"C","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrXzT5GM9jqt8=","represent":"AAAAAAFrXzT5GM9iyBk="}
+{"_parent":"AAAAAAFrXzSzts8SLJo=","visibility":"public","name":"B","_type":"UMLLifeline","isMultiInstance":false,"_id":"AAAAAAFrXzWHHc\/TRC4=","represent":"AAAAAAFrXzWHHc\/S3kQ="}
+{"_parent":"AAAAAAFrXzSztc8Rhk0=","visibility":"public","name":"Role1","_type":"UMLAttribute","_id":"AAAAAAFrXzTNCM8h6yg=","type":""}
+{"_parent":"AAAAAAFrXzSztc8Rhk0=","visibility":"public","name":"Role2","_type":"UMLAttribute","_id":"AAAAAAFrXzTpl89CxB4=","type":""}
+{"_parent":"AAAAAAFrXzSztc8Rhk0=","visibility":"public","name":"Role3","_type":"UMLAttribute","_id":"AAAAAAFrXzT5GM9iyBk=","type":""}
+{"_parent":"AAAAAAFrXzSztc8Rhk0=","visibility":"public","name":"Role4","_type":"UMLAttribute","_id":"AAAAAAFrXzWHHc\/S3kQ=","type":""}
+END_OF_MODEL
+PTCP_OBJ_COUNT Interaction
+MESSAGE_COUNT Interaction
+INCOMING_MSG_COUNT Interaction B
+
+
+{"_parent":"AAAAAAFrBpniVLD\/w\/4=","visibility":"public","name":"C1","_type":"UMLClass","_id":"AAAAAAFrBpniVLEAVxw="}
+{"_parent":"AAAAAAFrBpniVLEAVxw=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrBpniVrECdpk=","source":"AAAAAAFrBpniVLEAVxw=","target":"AAAAAAFrBpniVbEBGzc="}
+{"_parent":"AAAAAAFrBpniVLEAVxw=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBpniVrEF4\/8=","end1":"AAAAAAFrBpniVrEE\/bM=","_id":"AAAAAAFrBpniVrED\/oY="}
+{"reference":"AAAAAAFrBpniVLEAVxw=","multiplicity":"","_parent":"AAAAAAFrBpniVrED\/oY=","visibility":"private","name":"f1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBpniVrEF4\/8="}
+{"reference":"AAAAAAFrBpniVLEAVxw=","multiplicity":"","_parent":"AAAAAAFrBpniVrED\/oY=","visibility":"package","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBpniVrEE\/bM="}
+{"_parent":"AAAAAAFrBpniVLEAVxw=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrBpniVrEICOI=","end1":"AAAAAAFrBpniVrEHRjg=","_id":"AAAAAAFrBpniVrEGDJ0="}
+{"reference":"AAAAAAFrBpniVLEAVxw=","multiplicity":"","_parent":"AAAAAAFrBpniVrEGDJ0=","visibility":"private","name":"f3","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBpniVrEICOI="}
+{"reference":"AAAAAAFrBpniVLEAVxw=","multiplicity":"","_parent":"AAAAAAFrBpniVrEGDJ0=","visibility":"package","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrBpniVrEHRjg="}
+{"_parent":"AAAAAAFrBpniVLEAVxw=","visibility":"public","name":"f3","_type":"UMLAttribute","_id":"AAAAAAFraTxKqKEQGpc=","type":""}
+{"_parent":"AAAAAAFrBpniVLD\/w\/4=","visibility":"public","name":"I1","_type":"UMLInterface","_id":"AAAAAAFrBpniVbEBGzc="}
+END_OF_MODEL
+CLASS_ASSO_COUNT C1
+CLASS_ASSO_CLASS_LIST C1
+CLASS_IMPLEMENT_INTERFACE_LIST C1
+
